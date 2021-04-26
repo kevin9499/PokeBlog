@@ -1,0 +1,79 @@
+body {
+    background:#f1f1f1 !important;
+}
+.font{
+    width: 250px;
+    font-family: Poppins, sans-serif !important;
+    margin-bottom: 5%;
+}
+.adminPost,.adminPost:hover{
+    margin: 5px;
+    text-decoration: none;
+    color: #b4eef5;
+}
+
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #eceff1;
+}
+
+.image{
+    margin: 3px;
+    width: 100px;
+}
+
+.buttonAdmin{
+    border: 1px solid black;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+    background: aliceblue;
+}
+
+.buttonForm{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.formPost{
+    width: auto;
+}
+.h5{
+    display: inline;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding-top: 10px;
+    text-align: center;
+    background: black;
+    position: fixed;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
