@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./resources/assets/diet.png" height="128" />
+  <img src="./PokeBlog/frontend/public/img.png" height="128" />
   <br />
   <h1>PokeBlog</h1>
   <blockquote>
